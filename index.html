@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nordic Furniture</title>
+    <script src="js/variables.js"></script>
+    <script src="js/producto.class.js"></script>
+    <script defer src="js/arrayproductos.js"></script>
+</head>
+<body>
+
+    <h1>NordiC Furniture</h1>
+
+    <div class="card-container">
+        <div class="row"> 
+          <div class="col-md-6 col-xl-3 text-center my-4">
+            <div class="card mx-auto p-4">
+              <img src="./assets/img/BoC-sof-esquiner-CAMARO-24047.jpg" class="img-fluid" alt="">
+              <div class="card-body">
+                <h5 class="card-footer-title text-center pt-1">SOFÁ MODULAR CAMARO</h5>
+                <p class="card-text">$245.000</p>
+                <button class="btn btn-primary" marcador="1">+</button>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-6 col-xl-3 text-center my-4">
+            <div class="card mx-auto p-4">
+              <img src="./assets/img/butaca-fusion-BoConcept5159.jpg" class="img-fluid" alt="">
+              <div class="card-body">
+                <h5 class="card-footer-title text-center pt-1">BUTACA FUSION</h5>
+                <p class="card-text">$85.750</p>
+                <button class="btn btn-primary" marcador="1">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3 text-center my-4">
+            <div class="card mx-auto p-4">
+              <img src="./assets/img/BoC-lamp4-1639.jpg" class="img-fluid" alt="">
+              <div class="card-body">
+                <h5 class="card-footer-title text-center pt-1">LAMPARA WHITE</h5>
+                <p class="card-text">$76.850</p>
+                <button class="btn btn-primary" marcador="1">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3 text-center my-4">
+            <div class="card mx-auto p-4">
+              <img src="./assets/img/BoC-mesaCentro2-1050.jpg" class="img-fluid" alt="espacio representado por una oficina">
+              <div class="card-body">
+                <h5 class="card-footer-title text-center pt-1">MESA C</h5>
+                <p class="card-text">$97.700</p>
+                <button class="btn btn-primary" marcador="1">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <article class="container">
+        <h1>Carrito</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>PRODUCTO</th>
+                    <th>DESCRIPCION</th>
+                    <th>IMPORTE</th>
+                    <th>FINAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>SOFÁ MODULAR CAMARO</td>
+                    <td>245000</td>
+                    <td>296450</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>BUTACA FUSION</td>
+                    <td>85750</td>
+                    <td>103757.5</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>LAMPARA WHITE</td>
+                    <td>76850</td>
+                    <td>92988.5</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>MESA C</td>
+                    <td>97700</td>
+                    <td>118217</td>
+                </tr>
+            </tbody>
+        </table>
+        <footer>
+            <button role="button" class="primary" onclick="listarProductosTienda()">LISTAR PRODUCTOS</button>
+            <button role="button" class="secondary" onclick="buscarProducto()">BUSCAR PRODUCTO</button>
+            <button role="button" class="secondary" onclick="filtrarProductos()">FILTRAR PRODUCTOS</button>
+            <button role="button" class="contrast" onclick="calcularCarrito()">CALCULAR CARRITO</button>
+        </footer>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
