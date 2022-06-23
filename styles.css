@@ -4,25 +4,103 @@
 }
 
 body {
-  background-color: whitesmoke;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
+  background-image: linear-gradient(to top, #ada996 0%,#eaeaea 100%);
+  
 }
 
-.parent {
-  padding-right: 10px !important;
-  padding-left: 10px !important;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+
+h1 {
+    margin-top: 30px; 
+    margin-bottom: 50px;
+    color: #8f7e70 ;
+    font-family: 'Poiret One', cursive;
+    font-size: 70px;
+    letter-spacing: 6px;
+    text-align: center;
 }
 
-.delete {
-  background-color: darkred !important;
-  color: white !important;
+h2 {
+  margin: 1px;
+  padding: 40px;
+  background-color: none;
+  color:rgb(160, 160, 160);
+  font-family: 'Poiret One', cursive  ;
+  font-size: 35px;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  text-align: center;
 }
 
+h3 {
+  margin: 1px;
+  padding: 40px;
+  color:rgb(160, 160, 160);
+  font-family: 'Poiret One', cursive  ;
+  font-size: 35px;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+p {
+  color:#868686 ;
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 3px;
+
+}
+
+.form-news {
+  background-image: linear-gradient(to top, #ada996 0%,#eaeaea 100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
+    border-radius: 15px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 20px;
+    letter-spacing: 8px;
+    line-height: 2;
+    padding: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    border: 0px none rgba(243, 238, 221, 0.918);
+    border-radius: 20px;
+
+}
+
+
+.container-carrito {
+  background-image: linear-gradient(to top, #ada996 0%,#eaeaea 100%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  border-radius: 15px;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 20px;
+  letter-spacing: 8px;
+  line-height: 2;
+  padding: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  border: 0px none rgba(243, 238, 221, 0.918);
+  border-radius: 20px;
+}
+
+th{
+  color: #8f7e70;
+  padding: 25px;
+  justify-content: space-between;
+}
